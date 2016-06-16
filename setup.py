@@ -8,6 +8,7 @@ setup(
     download_url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete/tarball/v0.1",
     description="APT tabcomplete support for the Xonsh shell",
     author="Kermit Alexander II",
+    author_email="tuxfreak@tuxfamily.org",
     packages=['xontrib'],
     package_dir={'xontrib': 'xontrib'},
     package_data={'xontrib': ['*.xsh']},
