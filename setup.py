@@ -4,6 +4,8 @@ setup(
     name="xonsh-apt-tabcomplete",
     version="0.1",
     license="BSD",
+    url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete",
+    download_url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete/tarball/v0.1",
     description="APT tabcomplete support for the Xonsh shell",
     author="Kermit Alexander II",
     packages=['xontrib'],
