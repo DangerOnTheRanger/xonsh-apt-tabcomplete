@@ -8,6 +8,10 @@ Installation is done the normal way for setuptools-based projects:
 
 	python setup.py install
 
+You can also use pip, of course:
+
+    	pip install xonsh-apt-tabcomplete
+
 Note that in the specific case of Xonsh, make sure you use your Python 3
 executable to run setup.py, since as of this writing that's all Xonsh supports.
 

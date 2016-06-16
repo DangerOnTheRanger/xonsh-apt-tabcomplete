@@ -1,12 +1,19 @@
 from setuptools import setup
 
+try:
+    import pypandoc
+    long_description = pypandoc.convert('README.md', 'rst')
+except(IOError, ImportError):
+    long_description = open('README.md').read()
+
 setup(
     name="xonsh-apt-tabcomplete",
-    version="0.1.2",
+    version="0.1.3",
     license="BSD",
     url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete",
-    download_url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete/tarball/v0.1.2",
+    download_url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete/tarball/v0.1.3",
     description="APT tabcomplete support for the Xonsh shell",
+    long_description=long_description,
     author="Kermit Alexander II",
     author_email="tuxfreak@tuxfamily.org",
     packages=['xontrib'],
