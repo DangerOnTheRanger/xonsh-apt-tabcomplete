@@ -8,10 +8,10 @@ except(IOError, ImportError):
 
 setup(
     name="xonsh-apt-tabcomplete",
-    version="0.1.3",
+    version="0.1.4",
     license="BSD",
     url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete",
-    download_url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete/tarball/v0.1.3",
+    download_url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete/tarball/v0.1.4",
     description="APT tabcomplete support for the Xonsh shell",
     long_description=long_description,
     author="Kermit Alexander II",
