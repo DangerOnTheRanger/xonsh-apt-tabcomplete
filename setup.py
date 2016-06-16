@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name="xonsh-apt-tabcomplete",
-    version="0.1",
+    version="0.1.2",
     license="BSD",
     url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete",
-    download_url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete/tarball/v0.1.1",
+    download_url="https://github.com/DangerOnTheRanger/xonsh-apt-tabcomplete/tarball/v0.1.2",
     description="APT tabcomplete support for the Xonsh shell",
     author="Kermit Alexander II",
     author_email="tuxfreak@tuxfamily.org",
