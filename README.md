@@ -10,7 +10,7 @@ Installation is done the normal way for setuptools-based projects:
 
 You can also use pip, of course:
 
-    	pip install xonsh-apt-tabcomplete
+	pip install xonsh-apt-tabcomplete
 
 Note that in the specific case of Xonsh, make sure you use your Python 3
 executable to run setup.py, since as of this writing that's all Xonsh supports.
@@ -18,6 +18,11 @@ executable to run setup.py, since as of this writing that's all Xonsh supports.
 Next, you'll have to add a line to your .xonshrc file to load the plugin:
 
 	xontrib load apt_tabcomplete
+
+If you have the bash completer installed, then you should also add the following lines to ensure that apt_tabcomplete is loaded before the bash completer:
+
+	completer remove auto_apt
+	completer add auto_apt apt_completer "<bash"
 
 Reload your shell, and you're good to go.
 
