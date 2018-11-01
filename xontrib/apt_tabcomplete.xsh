@@ -48,4 +48,4 @@ def search_apt(query, installed_only=False):
         return results
 
 
-__xonsh_completers__["auto_apt"] = apt_completer
+__xonsh__.completers["auto_apt"] = apt_completer
